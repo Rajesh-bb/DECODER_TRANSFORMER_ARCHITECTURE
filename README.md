@@ -1,10 +1,10 @@
-Decoder Transformer — PyTorch Reimplementation
+**Decoder Transformer — PyTorch Reimplementation**
 
 Repository overview
 
 This repository contains a from‑scratch PyTorch reimplementation of the decoder‑only Transformer architecture described in the paper "Attention Is All You Need" (Vaswani et al., 2017). The implementation is written without relying on high‑level transformer libraries: all core building blocks (tokenization, positional encodings, masked self‑attention, multi‑head attention, layer norm, feed‑forward, and the training loop) are implemented by hand in PyTorch.
 
-Key highlights
+**Key highlights**
 
 ✅ Reimplemented decoder Transformer architecture (from scratch) in PyTorch — no Hugging Face/transformers model wrappers used for the core design.
 
@@ -40,6 +40,6 @@ Training loop with teacher forcing, logging, gradient clipping, scheduled learni
 
 Evaluation pipeline computing BLEU (and optionally other metrics like perplexity or ROUGE).
 
-Hyperparameter tuning & impact
+**Hyperparameter tuning & impact**
 
 Impact: Hyperparameter tuning resulted in a 19.9% relative improvement in the BLEU score compared to the initial baseline configuration
